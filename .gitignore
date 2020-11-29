@@ -340,4 +340,5 @@ ASALocalRun/
 healthchecksdb
 
 # For this project
+.DS_Store
 *.csv
