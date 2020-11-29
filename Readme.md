@@ -13,10 +13,6 @@ Windows 10 or macOS
 1. CMake
 1. ターミナル
 
-## Visual Studio 2019での注意点
-git clone時に以下の設定が引き継がれないので設定が必要になります
-- C++標準言語：ISO C++17 標準（プロパティページ -> C/C++ -> 言語 -> ISO C++17 標準）
-
 ## CMakeによる実行方法
 ```
 mkdir build
