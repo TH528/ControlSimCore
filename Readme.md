@@ -1,4 +1,4 @@
-# ControlSimCore V1.0
+# ControlSimCore
 
 ## 概要
 - C++による制御システムシミュレータ
