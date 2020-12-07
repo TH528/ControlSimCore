@@ -76,7 +76,7 @@ class ControlSystemSolver {
     assert(time_config_.end_time > time_config_.start_time);
     assert(time_config_.delta_t > 0);
 
-    const auto n = static_cast<std::size_t>((time_config_.end_time - time_config_.start_time) / time_config_.delta_t);
+    const auto n = static_cast<std::size_t>(std::round((time_config_.end_time - time_config_.start_time) / time_config_.delta_t));
     assert(n >= DATA_LENGTH);
 
     std::array<std::array<T, DATA_LENGTH>, 1> t_data {};
